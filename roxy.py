@@ -28,8 +28,7 @@ from urllib.request import urlopen
 engine = pyttsx3.init('sapi5')
 voices = engine.getProperty('voices')
 print(voices)
-# 1 = Hazel (trash voice) 2 = Catherine (best voice) 3 = Zirka (default windows voice)
-engine.setProperty('voice', voices[2].id)
+engine.setProperty('voice', voices[1].id)
 
 # set which browser you wish to use
 chrome_path = "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe"
