@@ -9,4 +9,3 @@ First run setup.py to make sure all needed packages are installed then execute r
 * Add a gui
 * Add more features
 * Make available to use on Linux
-* Convert to exe
