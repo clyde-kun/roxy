@@ -25,6 +25,7 @@ from bs4 import BeautifulSoup
 import win32com.client as wincl
 from urllib.request import urlopen
 
+#setting up voice engine
 engine = pyttsx3.init('sapi5')
 voices = engine.getProperty('voices')
 print(voices)
@@ -443,14 +444,13 @@ if __name__ == '__main__':
             exit()
 
         elif "will you be my gf" in query or "will you be my bf" in query or "will you be my girlfriend" in query or "will you be my boyfriend" in query:
-            speak("hell no, you ugly as fuck")
+            speak("ask me again in a couple days master")
 
         elif "i love you" in query or "i am in love with you" in query or "i'm in love with you" in query or "im in love with you" in query:
             speak("Hahaha, who would ever love you back")
         
         elif "i hate you" in query or "fuck you" in query:
-            speak("kill yourself.")
-            speak(uname + "" + "you are nothing but a stupid piece of shit")
+            speak("that is not very nice!")
 
         elif "what is" in query or "who is" in query:
 
